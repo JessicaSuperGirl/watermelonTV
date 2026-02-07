@@ -1505,7 +1505,7 @@ async function renderMediaPage(req, res, mediaType) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${title} (${year}) - 在线观看 | E视界</title>
+    <title>${title} (${year}) - 在线观看 | Z梦界</title>
     <meta name="description" content="${overview.substring(0, 160)}">
     <meta name="keywords" content="${title},${year},在线观看,免费电影,高清${mediaType === 'movie' ? '电影' : '电视剧'}">
     <meta name="robots" content="index, follow">
